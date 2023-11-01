@@ -6,6 +6,14 @@ volumes <- rep(79:80)
 # setwd("your working directory for this class")
 
 # load packages
+install.packages(rvest)
+install.packages(stringr)
+install.packages(data.table)
+install.packages(lubridate)
+install.packages(ggplot2)
+install.packages(dplyr)
+install.packages(httr)
+
 library(rvest)
 library(stringr)
 library(data.table)
